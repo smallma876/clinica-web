@@ -1,9 +1,7 @@
-module.exports = {
-  semi: true,
-  trailingComma: 'all',
-  singleQuote: true,
-  printWidth: 80,
+export default {
+  printWidth: 100,
+  trailingComma: 'es5',
   tabWidth: 2,
-  useTabs: false,
-  parser: 'typescript',
+  semi: true,
+  singleQuote: true,
 };
