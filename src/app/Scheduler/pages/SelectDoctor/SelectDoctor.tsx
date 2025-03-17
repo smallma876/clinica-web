@@ -1,7 +1,6 @@
 import React from 'react';
 
 const SelectDoctor = () => {
-
   return (
     <div>
       <h3>Nuestros medicos</h3>

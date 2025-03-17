@@ -18,9 +18,7 @@ const ServiceType = () => {
       <h3>Como podemos ayudarte?</h3>
       <div>
         <h3>Citas medicas</h3>
-        <span>
-          Agenda una cita con el mejor staff medico altamente capacitado
-        </span>
+        <span>Agenda una cita con el mejor staff medico altamente capacitado</span>
         <div>
           <CardMenu label="Por Especialidad" onClick={onClickBySpecialty} />
           <CardMenu label="Por Doctor" onClick={onClickByDoctor} />

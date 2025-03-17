@@ -1,8 +1,4 @@
-import {
-  LocalWorkName,
-  MedicalListResponse,
-  VisitType,
-} from '../../domain/medical';
+import { LocalWorkName, MedicalListResponse, VisitType } from '../../domain/medical';
 
 export const MedicalListMock: MedicalListResponse = {
   medicalList: [

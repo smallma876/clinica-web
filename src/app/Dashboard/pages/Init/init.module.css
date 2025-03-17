@@ -4,9 +4,9 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-template-areas:
-       "header header header"
-       "block1 block2 block3";
-  gap: 10px
+    'header header header'
+    'block1 block2 block3';
+  gap: 10px;
 }
 
 .header {

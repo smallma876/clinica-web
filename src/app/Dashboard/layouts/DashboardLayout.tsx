@@ -1,6 +1,6 @@
-import { Outlet } from 'react-router'
-import MenuBar from '../../../components/MenuBar/MenuBar'
-import styles from './dashboard-layout.module.css'
+import { Outlet } from 'react-router';
+import MenuBar from '../../../components/MenuBar/MenuBar';
+import styles from './dashboard-layout.module.css';
 
 const DashboardLayout = () => {
   return (
@@ -12,7 +12,7 @@ const DashboardLayout = () => {
         <Outlet />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default DashboardLayout
+export default DashboardLayout;
